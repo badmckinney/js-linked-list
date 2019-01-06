@@ -15,7 +15,7 @@ if (!window) {
 var expect = chai.expect;
 var should = chai.should();
 
-describe('Linked List Generator', function() {
+describe('Linked List Generator', function () {
   var sandbox;
   var newLinkedList = linkedListGenerator;
 
@@ -167,10 +167,10 @@ describe('Linked List Generator', function() {
         'Snow Crash'
       ];
 
-      urlArr.forEach(function(url) {
+      urlArr.forEach(function (url) {
         urlList.add(url);
       });
-      bookArr.forEach(function(book) {
+      bookArr.forEach(function (book) {
         bookList.add(book);
       });
     });
@@ -225,10 +225,10 @@ describe('Linked List Generator', function() {
         'Snow Crash'
       ];
 
-      urlArr.forEach(function(url) {
+      urlArr.forEach(function (url) {
         urlList.add(url);
       });
-      bookArr.forEach(function(book) {
+      bookArr.forEach(function (book) {
         bookList.add(book);
       });
     });
@@ -284,10 +284,10 @@ describe('Linked List Generator', function() {
         'Snow Crash'
       ];
 
-      urlArr.forEach(function(url) {
+      urlArr.forEach(function (url) {
         urlList.add(url);
       });
-      bookArr.forEach(function(book) {
+      bookArr.forEach(function (book) {
         bookList.add(book);
       });
     });
