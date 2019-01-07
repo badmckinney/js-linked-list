@@ -35,6 +35,7 @@ function linkedListGenerator() {
 
   const get = (n) => {
     let node = getHead();
+
     if (n < 0) {
       return false;
     } else {
@@ -71,11 +72,9 @@ function linkedListGenerator() {
       head = added;
 
     } else if (get(n) === false) {
-      console.log('running right');
       return false;
 
     } else {
-      console.log('running wrong')
       added.next = get(n);
       before.next = added;
     }
