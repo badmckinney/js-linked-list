@@ -64,8 +64,8 @@ function linkedListGenerator() {
 
   const insert = (value, n) => {
     let added = {};
-    added.value = value;
     let before = get(n - 1);
+    added.value = value;
 
     if (n === 0) {
       added.next = head;
